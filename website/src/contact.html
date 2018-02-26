@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Nassim KARROUM - Mini site personnel</title>
+  <link rel="stylesheet" href="contact.css">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+</head>
+<body>
+
+<div id="bandeau">
+<a href="monsite.html"><p class="menu"> Accueil</p></a>
+<a href="xp.html"><p class="menu"> Expérience professionnelle</p></a>
+<a href="comp.html"><p class="menu"> Compétences</p></a>
+<a href="divers.html"><p class="menu"> Centres d'intérêt</p></a>
+<a href="contact.html"><p class="menu"> Contact</p></a>
+</div>
+
+<div id="bandeaumenu">
+<h1 id="textaccueil">Contact</h1>
+</div>
+
+<form method="post" action="traitement.php">
+  
+   <fieldset>
+       <legend style="font-family: 'Josefin Sans', sans-serif; color:white;">Vos coordonnées</legend>
+	   <!-- Titre du fieldset --> 
+
+       <label for="nom" style="font-family: 'Josefin Sans', sans-serif; color:white;">Nom</label>
+       <input type="text" name="nom" id="nom" />
+
+       <label for="prenom" style="font-family: 'Josefin Sans', sans-serif; color:white;">Prénom</label>
+       <input type="text" name="prenom" id="prenom" />
+	   
+       <label for="email" style="font-family: 'Josefin Sans', sans-serif; color:white;">E-mail</label>
+       <input type="email" name="email" id="email" />
+   </fieldset>
+
+   <fieldset>
+       <legend style="font-family: 'Josefin Sans', sans-serif; color:white;">Votre message</legend> <!-- Titre du fieldset -->
+       <p>
+           <label for="precisions"></label>
+           <textarea name="precisions" placeholder="Écrivez votre message ici" style="width:1000px; height:400px;"></textarea>
+       </p>
+	   
+	    <div class="button">
+        <button type="submit" style="font-family: 'Josefin Sans', sans-serif; color:white; background:black;">Envoyer</button>
+    </div>
+   </fieldset>
+   
+   <h3 style="font-family: 'Josefin Sans', sans-serif; color:white;">Par téléphone au 07.60.04.95.03</h3>
+   <h3 style="font-family: 'Josefin Sans', sans-serif; color:white;">ou par mail à cette adresse<a href="mailto:nassimkarroum0@gmail.com"> nassimkarroum0@gmail.com</a></h3>
+   
+
+</form>
+
+</body>
+</html>

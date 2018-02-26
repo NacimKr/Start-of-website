@@ -1,0 +1,39 @@
+ .menu{
+	float:left;
+	font-size:28px;
+	color:white;
+	padding:10px;
+	margin-top:0px;
+	font-family: 'Josefin Sans', sans-serif;
+	text-align:center;
+}
+
+.menu:hover{
+     background-color: blue;
+	 cursor:pointer;
+}
+
+#ifocop{
+	margin-left:650px;
+	margin-top:160px;
+}
+
+#jobbers{
+	margin-left:650px;
+	margin-top:5px;
+}
+
+#ffr{
+	margin-left:400px;
+	margin-top:-30px;
+}
+
+#zerodeconduite{
+	margin-top:-15px;
+	margin-left:650px;
+}
+
+a:link 
+{ 
+ text-decoration:none; 
+} 

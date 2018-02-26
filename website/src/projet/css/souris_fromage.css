@@ -1,0 +1,44 @@
+.mouseleft{    
+	width: 45px;
+    height: 45px;
+    position: relative;
+    background-image:url('../images/sourisdessingauche.png');
+    top: 100px;
+    left: 100px;
+}
+
+.mouseright{    
+	width: 45px;
+    height: 45px;
+    position: relative;
+    background-image:url('../images/sourisdessindroite.png');
+    top: 100px;
+    left: 100px;
+}
+
+.mousedown{    
+	width: 45px;
+    height: 45px;
+    position: relative;
+    background-image:url('../images/sourisdessinbas.png');
+    top: 100px;
+    left: 100px;
+}
+
+.mouseup{    
+	width: 45px;
+    height: 45px;
+    position: relative;
+    background-image:url('../images/sourisdessinhaut.png');
+    top: 100px;
+    left: 100px;
+}
+
+.cheese{    
+	width: 35px;
+    height: 30px;
+    position: relative;
+    background-image:url('../images/fromage.png');
+    top: 100px;
+    left: 100px;
+}

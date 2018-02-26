@@ -1,0 +1,88 @@
+#logiciel{
+	width:720px;
+	height:220px;
+	background-image:url('../image/adobe.png');
+}
+
+#htmlcss{
+	width:600px;
+	height:350px;
+	background-image:url('../image/langage.png');
+	margin-left:20px;
+	margin-top:-20px;
+}
+
+#db{
+	width:400px;
+	height:400px;
+	background-image:url('../image/mongodb.png');
+	margin-left:20px;
+	margin-top:-20px;
+}
+.menu{
+	float:left;
+	font-size:28px;
+	color:white;
+	padding:10px;
+	margin-top:0px;
+	font-family: 'Josefin Sans', sans-serif;
+	text-align:center;
+}
+
+.menu:hover{
+     background-color: blue;
+	 cursor:pointer;
+}
+
+#ifocop{
+	margin-left:650px;
+	margin-top:160px;
+}
+
+#jobbers{
+	margin-left:650px;
+	margin-top:5px;
+}
+
+#ffr{
+	margin-left:400px;
+	margin-top:-30px;
+}
+
+#zerodeconduite{
+	margin-top:-15px;
+	margin-left:650px;
+}
+
+a:link 
+{ 
+ text-decoration:none; 
+} 
+
+#word{
+	width:95px;
+	height:95px;
+	background-image:url('../image/word.png');
+	float:left;
+}
+
+#excel{
+	width:95px;
+	height:95px;
+	background-image:url('../image/excel.png');
+	float:left;
+}
+
+#power{
+	width:95px;
+	height:95px;
+	background-image:url('../image/powerpoint.png');
+	float:left;
+}
+
+#note{
+	width:95px;
+	height:95px;
+	background-image:url('../image/note.png');
+	float:left;
+}

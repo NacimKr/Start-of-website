@@ -1,0 +1,223 @@
+body{
+	background-image:url("../images/maison.jpg");	
+	background-size:cover;
+	 weight: watcher;
+}
+
+.pagetitre{
+	width:100%;
+	height:70px;
+	color:white;
+	font-family:'Mouse Memoirs', sans-serif;
+	font-size:60px;
+	text-align:center;
+	text-shadow: #000000 2px 2px 2px
+}
+
+.cv{
+	font-family: 'Mouse Memoirs', sans-serif;
+	font-weight:bold;
+	font-size:30px;
+	margin:0auto;
+	background-color:brown;
+	border-radius:10px;
+	box-shadow:8px 8px 12px black;
+	float:left;
+	width:10%;
+	text-align:center;
+}
+
+.linkedin{
+	font-family: 'Mouse Memoirs', sans-serif;
+	font-size:30px;
+	font-weight:bold;
+	background-color:brown;
+	margin:0 auto;
+	border-radius:10px;
+	box-shadow:8px 8px 12px black;
+	float:right;
+	width:8%;
+	text-align:center;
+	
+}
+
+a:visited {
+  color: white;
+}
+
+a:link 
+{ 
+ text-decoration:none; 
+ color:white;
+}
+
+#fond_du_jeux{
+	background-image:url("../images/bois.jpg");
+	height:500px;
+	width:60%;
+	overflow:hidden;
+	margin-top:80px;
+	border:brown solid 10px;
+}
+
+#rejouer{
+	background-color:brown;
+	height:400px;
+	width:90%;
+	margin:auto;
+	box-shadow:8px 8px 12px black;
+	color:white;
+	font-family: 'Mouse Memoirs', sans-serif;
+	display:none;
+	text-align:center;
+	font-size:100px;
+	cursor:pointer;
+}
+
+#dg_point span{
+	color:white;
+	font-size:25px;
+	font-family:'Mouse Memoirs', sans-serif;
+}
+
+#menu{	
+	background-color:brown;
+	height:60px;
+	width:30%;
+	margin:auto;
+	margin-bottom:10%;
+	border-radius:10px;
+	box-shadow:8px 8px 12px black;
+	color:white;
+	font-family: 'Mouse Memoirs', sans-serif;
+}
+
+#menu div{
+	height:10%;
+	width:100%;
+	padding-top:10px;
+	cursor:pointer;
+	margin-top:30%;
+	position:relative;
+	font-size:30px;
+	text-align:center;
+}
+
+#menu div:hover{
+	color:#bbbbb1;
+}
+
+#compétences{
+	display:none;
+	font-size:50px;
+	font-family:'Mouse Memoirs', sans-serif;
+	color:white;
+	text-align:center;
+	background-color:brown;
+	margin:auto;
+}
+
+#experience{
+	display:none;
+	font-size:50px;
+	font-family:'Mouse Memoirs', sans-serif;
+	color:white;
+	text-align:center;
+	background-color:brown;
+	margin:auto;
+}
+
+#formations{
+	display:none;
+	font-size:50px;
+	font-family:'Mouse Memoirs', sans-serif;
+	color:white;
+	text-align:center;
+	background-color:brown;
+	margin:auto;
+}
+
+#divers{
+	display:none;
+	font-size:50px;
+	font-family:'Mouse Memoirs', sans-serif;
+	color:white;
+	text-align:center;
+	background-color:brown;
+	margin:auto;
+}
+
+#fin_de_jeu{
+	display:none;
+	font-size:50px;
+	font-family:'Mouse Memoirs', sans-serif;
+	color:white;
+	text-align:center;
+	background-color:brown;
+	margin:auto;
+}
+
+#xp{
+	width:100%;
+	display:none;
+	font-size : 14px;
+	font-family: 'Mouse Memoirs', sans-serif;
+	text-align:center;
+	background : #bbbbb1;
+	float:right;
+	clear:both;
+	opacity: 0.6;
+}
+
+#comp{
+	width:100%;
+	height:180px;
+	display:none;
+	font-size : 14px;
+	font-family: 'Mouse Memoirs', sans-serif;
+	text-align:center;
+	background : #bbbbb1;
+	float:right;
+	opacity: 0.6;
+	clear:both;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+#form{
+	width:100%;
+	display:none;
+	font-size : 14px;
+	font-family: 'Mouse Memoirs', sans-serif;
+	text-align:center;
+	background : #bbbbb1;
+	float:right;
+	clear:both;
+	opacity: 0.6;
+}
+
+#autre{
+	width:100%;
+	height:107px;
+	display:none;
+	font-size : 14px;
+	font-family: 'Mouse Memoirs', sans-serif;
+	text-align:center;
+	background : #bbbbb1;
+	margin-left:20px;
+	float:right;
+	clear:both;
+	opacity: 0.6;
+}
+
+#cvafficher{
+	width:350px;
+	height:560px;
+	background-color:black;
+	opacity: 0.7;
+	border-radius:5px;
+	font-size:20px;
+	float:right;
+	display:block;
+	margin-top:5%;
+}
